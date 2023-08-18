@@ -20,3 +20,6 @@ while 1:
     print("listening...")
     text= takecommand()
     speaker.speak(text)
+
+
+print("working \n")
