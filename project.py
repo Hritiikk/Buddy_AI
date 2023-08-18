@@ -30,4 +30,4 @@ while True:
     print("listening...")
     text= takecommand_hindi()
     speaker.speak(text)
-    
+    # try krke dekh kaam kr rha tere me ? mere me ek baar kra phir bnd hogya 
