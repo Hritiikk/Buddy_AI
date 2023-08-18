@@ -21,5 +21,3 @@ while 1:
     text= takecommand()
     speaker.speak(text)
 
-
-print("working \n")
