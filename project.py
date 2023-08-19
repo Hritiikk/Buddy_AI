@@ -33,6 +33,7 @@ while True:
     text = takecommand()
     speaker.speak(text)
     # try krke dekh kaam kr rha tere me ? mere me ek baar kra phir bnd hogya
+
     ''' 
     * listening tak ja raha but input nahi le raha 
     * Follow Up -> question ? -_- dono mei hi i.e takecommand_hindi() and takecommand() query wala part nhi le raha 
