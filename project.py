@@ -32,11 +32,10 @@ while True:
     text = takecommand_hindi()
     text = takecommand()
     speaker.speak(text)
-    # try krke dekh kaam kr rha tere me ? mere me ek baar kra phir bnd hogya
+# try krke dekh kaam kr rha tere me ? mere me ek baar kra phir bnd hogya
+"""
 
-    ''' 
-    * listening tak ja raha but input nahi le raha 
-    * Follow Up -> question ? -_- dono mei hi i.e takecommand_hindi() and takecommand() query wala part nhi le raha 
-    and male voice aa rahi hai 
-    * Input - input user se text ke format mei kyu le raha hai 
-    '''
+Check Both Testing and gTTs test 
+might have to use gTTs for Hindi translation
+
+"""
