@@ -28,7 +28,7 @@ while True:
     s = input()
     speaker.speak(s)
     print("listening...")
-    text = takecommand_hindi()
+    # text = takecommand_hindi()
     text = takecommand()
     speaker.speak(text)
     # try krke dekh kaam kr rha tere me ? mere me ek baar kra phir bnd hogya
