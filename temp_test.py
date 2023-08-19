@@ -13,7 +13,6 @@ def Listen():
     r = sr.Recognizer()
     with sr.Microphone() as source:
         r.pause_threshold = 1
-        r.
         print("listening ... .. .. ")
         audio = r.listen(source, timeout=2)
         query = r.recognize_google(audio, language="en-IN")
