@@ -1,8 +1,7 @@
 import speech_recognition as sr
 import win32com.client
 
-speaker = win32com.client.Dispatch("sapi.Spvoice")
-
+speaker =win32com.client.Dispatch("sapi.Spvoice")
 
 def takecommand():  # for english
     r = sr.Recognizer()
