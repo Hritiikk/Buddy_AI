@@ -1,0 +1,39 @@
+API's 
+
+---- modules ---- 
+requests
+
+---- code snippet ---- 
+response = requests.get(url)
+
+print(response.status_code)
+print(response.json()) - for printing in json
+
+printing Specific data 
+response.json()['results'][0]['gender']
+
+name = response.json()['results'][0]['first_name'] - can print data
+
+----------------------------------------------------------------------------
+---- Spotify and Apple Music ---- 
+pip install spotipy
+- intial Setup - terminal ka rahega but background process bana sakte hai usse
+- Authentication 
+- user Sign in 
+- perm store karna padega uska oAuth Token and user Name 
+- Song will be played within the browser 
+
+
+---- MPV ----- 
+------ module ----- 
+mpv - pip install python-mpv
+
+
+player = mpv.MPV()
+stream_url = 'httpexample.comstream_url'
+player.play(stream_url)
+input(Press Enter to exit...)
+player.terminate()
+
+
+
