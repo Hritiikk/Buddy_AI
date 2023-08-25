@@ -13,7 +13,8 @@ def Speak(word):
 def Listen():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        # r.pause_threshold = 1
+        r.pause_threshold = 1
+        print("listening ... .. .. ")
         audio = r.listen(source, timeout=2)
         try:
             print("Listening...")
